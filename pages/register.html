@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>User register page</title>
+    <link rel="stylesheet" href="../css/Registration.css">
+    <script type="text/javascript" src="../js/Registervalidation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+
+        <form action="../pages/login.html" onsubmit="return validate()">
+            <p>First Name</p>
+            <input type="text" placeholder="Enter first name" id="fname" autocomplete="off">
+            <span id="fnerror"></span>
+
+            <p>Last Name</p>
+            <input type="text" placeholder="Enter last name" id="lname" autocomplete="off">
+            <span id="lnerror"></span>
+
+            <p>Phone No</p>
+            <input type="text" placeholder="Enter phone number" id="phoneNo" autocomplete="off">
+            <span id="PHerror"></span>
+
+            <p>Email</p>
+            <input type="email" placeholder="Enter email" id="email" autocomplete="off">
+            <span id="Eerror"></span>
+
+            <p>Password</p>
+            <input type="password" placeholder="Enter password" id="password" autocomplete="off">
+            <span id="Perror"></span>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

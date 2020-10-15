@@ -1,0 +1,55 @@
+table{
+   width: 65%;
+   color:black;
+   border-color: rgb(248, 244, 244); 
+    border-collapse: collapse; 
+   margin-left: 26%;
+   margin-right: auto;
+ 
+}
+
+  table th,tr{
+     background-color: rgb(246, 243, 243);
+    text-align: center;
+    padding: 15px;
+  }
+  
+body{
+   background-color:white;
+   background-size: 100%;
+}
+
+h1{
+   margin-left: 35%;
+   margin-top: 3%;
+}
+
+h3{
+  margin-left: 27%;
+}
+
+table td{
+  text-align: center;
+  background-color: rgb(235, 233, 233);
+  padding: 15px;
+}
+
+button{
+  font-style: italic;
+ width: 100;
+ background-color:rgba(4, 0, 255, 0.74);
+ color: rgb(200, 252, 252);
+ font-weight: bold;
+}
+
+button[type="save"]{
+  width: 200;
+  height: 30;
+  margin-right: auto;
+  border-radius: 5%;
+   margin-left: 27%;
+   margin-top: 3%;
+}
+
+
+

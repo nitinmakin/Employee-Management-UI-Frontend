@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+      add user
+    </title>
+
+    <link rel="stylesheet" href="../css/Registration.css">
+    <script type="text/javascript" src="../js/AddEmployeeValidation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Edit Employee </h2>
+
+        <form action="../pages/RecordEdited.html" onsubmit="return validate()">
+            <p>First Name</p>
+            <input type="text" placeholder="Enter first name" id="fname" autocomplete="off">
+            <span id="fnerror"></span>
+
+            <p>Last Name</p>
+            <input type="text" placeholder="Enter last name" id="lname" autocomplete="off">
+            <span id="lnerror"></span>
+
+            <p>Phone No</p>
+            <input type="text" placeholder="Enter phone number" id="phoneNo" autocomplete="off">
+            <span id="PHerror"></span>
+
+            <p>Email</p>
+            <input type="email" placeholder="Enter email" id="email" autocomplete="off">
+            <span id="Eerror"></span>
+                    
+            <p>State</p>
+            <input type="text" placeholder="Enter Address" id="Address" autocomplete="off">
+
+            <p>City</p>
+            <input type="text" placeholder="Enter Address" id="Address" autocomplete="off">
+
+            <p>Zip Code</p>
+            <input type="text" placeholder="Enter Address" id="Address" autocomplete="off"><br><br> 
+
+            <button type="submit">SAVE CHANGES</button><br><br>
+            <a href="../pages/dashboard.html">    back to dashboard.</a>
+
+        </form>
+    </div>
+</body>
+
+</html>

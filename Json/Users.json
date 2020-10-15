@@ -1,0 +1,35 @@
+
+[
+
+    {
+        
+        "FirstName" : "Alekh",
+        "LastName" : "Makin" ,
+        "EmailId"  :  "dkcdk@gecd",
+        "PhoneNo" : "785995593"
+      
+    },
+
+    {
+        "FirstName" : "Nitin",
+        "LastName" : "Makin" ,
+        "EmailId"  :  "dkcdk@gecd",
+        "PhoneNo" : "9088773312"
+       
+    },
+    {
+        "FirstName" : "Parag",
+        "LastName" : "Adhau" ,
+        "EmailId"  :  "dkcdk@gecd",
+        "PhoneNo" : "7890765443"
+       
+    },
+    {
+        "FirstName" : "Souman",
+        "LastName" : "Ghosh" ,
+        "EmailId"  :  "dkcdk@gecd",
+        "PhoneNo" : "9800771123"
+      
+    }
+    ]
+

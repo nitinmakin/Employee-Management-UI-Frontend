@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="../css/Login.css">
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Login and Registration Form</title>
+</head>
+<script type="text/javascript" src="../js/LoginValidation.js"></script>
+
+<body>
+    <div class="container">
+        <h4>LOGIN</h4>
+        <form onclick="return validate()">
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" id="uname" required>
+            <span id="usererror"></span>
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password" id="password" required>
+            <span id="passworderror"></span>
+            <button type="button">LOGIN</button><br><br>
+            <a href="register.html">Don't have an account? SIGN UP</a>
+        </form>
+</body>
+
+</html>
